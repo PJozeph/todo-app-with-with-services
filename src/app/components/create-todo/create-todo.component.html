@@ -1,0 +1,13 @@
+<section class="input-container">
+    <div class="row">
+        <label>Title</label>
+        <input [(ngModel)]="title" type="text" />
+    </div>
+    <div class="row">
+        <label>Description</label>
+        <input [(ngModel)]="description"  type="text" />
+    </div>
+    <div class="row">
+        <button (click)="createTodo()">Create Todo</button>
+    </div>
+</section>

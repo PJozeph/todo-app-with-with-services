@@ -1,0 +1,13 @@
+<!-- <p>todo-list works!</p> -->
+<section class="todo-list">
+    <div *ngFor="let todo of todos">
+        <app-todo-item
+            [todo]="todo"
+            (markedClickEvent)="getTodos()"></app-todo-item>
+    </div>
+</section>
+<!-- <section *ngIf="todos$ | async as todos">
+    <div *ngFor="let todo of todos">
+        {{todo | json }}
+    </div>
+</section> -->

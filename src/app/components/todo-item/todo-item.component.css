@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+}
+
+.todo-container {
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 5px;
+    width: 100%;
+}

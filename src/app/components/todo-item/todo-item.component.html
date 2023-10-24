@@ -1,0 +1,13 @@
+<section class="todo-container">
+    <div class="row">
+        <label>Title</label>
+        <label>{{ todo.title }}</label>
+    </div>
+    <div class="row">
+        <label>Description</label>
+        <label>{{ todo.description }}</label>
+    </div>
+    <div class="row">
+        <button (click)="updateTodoStatus(todo)">Mark Completed</button>
+    </div>
+</section>
